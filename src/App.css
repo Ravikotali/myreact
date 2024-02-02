@@ -1,0 +1,67 @@
+
+.header{
+  height: 70px;
+  padding: 30px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content:start;
+}
+.logo-title{
+  color: #FFF;
+  font-family: "Public Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.india-user{
+  color: #FFF;
+  display: inline-flex;
+  padding: 7px 32px 8px 15px;
+  align-items: center;
+  gap: 17px;
+  margin-top: 105px;
+  border-radius: 100px;
+  border: 1px solid #292929;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.hero{
+  width: 756px;
+  padding-top: 30px;
+  color: #fff;
+  font-size: 25px;
+}
+.subtitle, .join-now, p{
+  padding-top: 20px;
+}
+.join-now>a>button{
+  display: flex;
+  width: 275px;
+  height: 48px;
+  padding: 14px 40.96px 15px 41px;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: #404040;
+  color: #fff;
+}
+.subtitle{
+color: #FFF;
+text-align: center;
+font-family: "Public Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+p{
+  color: #fff;
+}

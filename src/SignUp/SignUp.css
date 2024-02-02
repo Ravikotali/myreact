@@ -1,0 +1,87 @@
+.SignMain{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.card{
+    background-color: rgba(36, 36, 36, 0.456);
+    border-radius: 10px;
+    height: 500px;
+    width: 600px;
+    text-align: center;
+}
+
+.details{
+   margin-top: 15%;
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
+}
+
+.create p{
+    font-size: 30px;
+}
+
+.name input {
+    margin-top: 20px;
+    height: 45px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: rgba(36, 36, 36, 0.456);
+    border: 2px solid white;
+}
+
+.name input::placeholder{
+    padding-left: 40px;
+    color: #404040;
+}
+
+.Email input {
+    margin-top: 15px;
+    height: 45px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: rgba(36, 36, 36, 0.456);
+    border: 2px solid white;
+}
+
+.Email input::placeholder{
+    padding-left: 40px;
+    color: #404040;
+}
+
+.continue-button{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.continue-button button{
+    
+    height: 45px;
+    width: 250px;
+    border-radius: 1000px;
+    background: #404040;
+    color: #fff;
+    /* display: flex; */
+    /* padding: 14px 40.96px 15px 41px; */
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+   
+}
+
+
+
+
+
